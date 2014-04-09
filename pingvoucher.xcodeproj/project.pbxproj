@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89308B7218F59103004C2B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7118F59103004C2B29 /* Foundation.framework */; };
+		89308B7418F59103004C2B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7318F59103004C2B29 /* CoreGraphics.framework */; };
+		89308B7618F59103004C2B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7518F59103004C2B29 /* UIKit.framework */; };
+		89308B7C18F59103004C2B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89308B7A18F59103004C2B29 /* InfoPlist.strings */; };
+		89308B7E18F59103004C2B29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B7D18F59103004C2B29 /* main.m */; };
+		89308B8218F59103004C2B29 /* XygloAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8118F59103004C2B29 /* XygloAppDelegate.m */; };
+		89308B8518F59103004C2B29 /* XygloRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8418F59103004C2B29 /* XygloRootViewController.m */; };
+		89308B8818F59103004C2B29 /* XygloDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8718F59103004C2B29 /* XygloDataViewController.m */; };
+		89308B8B18F59103004C2B29 /* XygloModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8A18F59103004C2B29 /* XygloModelController.m */; };
+		89308B8E18F59103004C2B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89308B8C18F59103004C2B29 /* Main.storyboard */; };
+		89308B9018F59103004C2B29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89308B8F18F59103004C2B29 /* Images.xcassets */; };
+		89308B9718F59103004C2B29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B9618F59103004C2B29 /* XCTest.framework */; };
+		89308B9818F59103004C2B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7118F59103004C2B29 /* Foundation.framework */; };
+		89308B9918F59103004C2B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7518F59103004C2B29 /* UIKit.framework */; };
+		89308BA118F59103004C2B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89308B9F18F59103004C2B29 /* InfoPlist.strings */; };
+		89308BA318F59103004C2B29 /* pingvoucherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308BA218F59103004C2B29 /* pingvoucherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89308B9A18F59103004C2B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89308B6618F59102004C2B29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89308B6D18F59102004C2B29;
+			remoteInfo = pingvoucher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89308B6E18F59103004C2B29 /* pingvoucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingvoucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89308B7118F59103004C2B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89308B7318F59103004C2B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89308B7518F59103004C2B29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89308B7918F59103004C2B29 /* pingvoucher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pingvoucher-Info.plist"; sourceTree = "<group>"; };
+		89308B7B18F59103004C2B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89308B7D18F59103004C2B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89308B7F18F59103004C2B29 /* pingvoucher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pingvoucher-Prefix.pch"; sourceTree = "<group>"; };
+		89308B8018F59103004C2B29 /* XygloAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloAppDelegate.h; sourceTree = "<group>"; };
+		89308B8118F59103004C2B29 /* XygloAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloAppDelegate.m; sourceTree = "<group>"; };
+		89308B8318F59103004C2B29 /* XygloRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloRootViewController.h; sourceTree = "<group>"; };
+		89308B8418F59103004C2B29 /* XygloRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloRootViewController.m; sourceTree = "<group>"; };
+		89308B8618F59103004C2B29 /* XygloDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloDataViewController.h; sourceTree = "<group>"; };
+		89308B8718F59103004C2B29 /* XygloDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloDataViewController.m; sourceTree = "<group>"; };
+		89308B8918F59103004C2B29 /* XygloModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloModelController.h; sourceTree = "<group>"; };
+		89308B8A18F59103004C2B29 /* XygloModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloModelController.m; sourceTree = "<group>"; };
+		89308B8D18F59103004C2B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89308B8F18F59103004C2B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89308B9518F59103004C2B29 /* pingvoucherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingvoucherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89308B9618F59103004C2B29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		89308B9E18F59103004C2B29 /* pingvoucherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pingvoucherTests-Info.plist"; sourceTree = "<group>"; };
+		89308BA018F59103004C2B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89308BA218F59103004C2B29 /* pingvoucherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingvoucherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89308B6B18F59102004C2B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89308B7418F59103004C2B29 /* CoreGraphics.framework in Frameworks */,
+				89308B7618F59103004C2B29 /* UIKit.framework in Frameworks */,
+				89308B7218F59103004C2B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89308B9218F59103004C2B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89308B9718F59103004C2B29 /* XCTest.framework in Frameworks */,
+				89308B9918F59103004C2B29 /* UIKit.framework in Frameworks */,
+				89308B9818F59103004C2B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89308B6518F59102004C2B29 = {
+			isa = PBXGroup;
+			children = (
+				89308B7718F59103004C2B29 /* pingvoucher */,
+				89308B9C18F59103004C2B29 /* pingvoucherTests */,
+				89308B7018F59103004C2B29 /* Frameworks */,
+				89308B6F18F59103004C2B29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89308B6F18F59103004C2B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89308B6E18F59103004C2B29 /* pingvoucher.app */,
+				89308B9518F59103004C2B29 /* pingvoucherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89308B7018F59103004C2B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89308B7118F59103004C2B29 /* Foundation.framework */,
+				89308B7318F59103004C2B29 /* CoreGraphics.framework */,
+				89308B7518F59103004C2B29 /* UIKit.framework */,
+				89308B9618F59103004C2B29 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89308B7718F59103004C2B29 /* pingvoucher */ = {
+			isa = PBXGroup;
+			children = (
+				89308B8018F59103004C2B29 /* XygloAppDelegate.h */,
+				89308B8118F59103004C2B29 /* XygloAppDelegate.m */,
+				89308B8318F59103004C2B29 /* XygloRootViewController.h */,
+				89308B8418F59103004C2B29 /* XygloRootViewController.m */,
+				89308B8618F59103004C2B29 /* XygloDataViewController.h */,
+				89308B8718F59103004C2B29 /* XygloDataViewController.m */,
+				89308B8918F59103004C2B29 /* XygloModelController.h */,
+				89308B8A18F59103004C2B29 /* XygloModelController.m */,
+				89308B8C18F59103004C2B29 /* Main.storyboard */,
+				89308B8F18F59103004C2B29 /* Images.xcassets */,
+				89308B7818F59103004C2B29 /* Supporting Files */,
+			);
+			path = pingvoucher;
+			sourceTree = "<group>";
+		};
+		89308B7818F59103004C2B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89308B7918F59103004C2B29 /* pingvoucher-Info.plist */,
+				89308B7A18F59103004C2B29 /* InfoPlist.strings */,
+				89308B7D18F59103004C2B29 /* main.m */,
+				89308B7F18F59103004C2B29 /* pingvoucher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89308B9C18F59103004C2B29 /* pingvoucherTests */ = {
+			isa = PBXGroup;
+			children = (
+				89308BA218F59103004C2B29 /* pingvoucherTests.m */,
+				89308B9D18F59103004C2B29 /* Supporting Files */,
+			);
+			path = pingvoucherTests;
+			sourceTree = "<group>";
+		};
+		89308B9D18F59103004C2B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89308B9E18F59103004C2B29 /* pingvoucherTests-Info.plist */,
+				89308B9F18F59103004C2B29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89308B6D18F59102004C2B29 /* pingvoucher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89308BA618F59103004C2B29 /* Build configuration list for PBXNativeTarget "pingvoucher" */;
+			buildPhases = (
+				89308B6A18F59102004C2B29 /* Sources */,
+				89308B6B18F59102004C2B29 /* Frameworks */,
+				89308B6C18F59102004C2B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pingvoucher;
+			productName = pingvoucher;
+			productReference = 89308B6E18F59103004C2B29 /* pingvoucher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89308B9418F59103004C2B29 /* pingvoucherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89308BA918F59103004C2B29 /* Build configuration list for PBXNativeTarget "pingvoucherTests" */;
+			buildPhases = (
+				89308B9118F59103004C2B29 /* Sources */,
+				89308B9218F59103004C2B29 /* Frameworks */,
+				89308B9318F59103004C2B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89308B9B18F59103004C2B29 /* PBXTargetDependency */,
+			);
+			name = pingvoucherTests;
+			productName = pingvoucherTests;
+			productReference = 89308B9518F59103004C2B29 /* pingvoucherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89308B6618F59102004C2B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Xyglo;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Xyglo;
+				TargetAttributes = {
+					89308B9418F59103004C2B29 = {
+						TestTargetID = 89308B6D18F59102004C2B29;
+					};
+				};
+			};
+			buildConfigurationList = 89308B6918F59102004C2B29 /* Build configuration list for PBXProject "pingvoucher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89308B6518F59102004C2B29;
+			productRefGroup = 89308B6F18F59103004C2B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89308B6D18F59102004C2B29 /* pingvoucher */,
+				89308B9418F59103004C2B29 /* pingvoucherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89308B6C18F59102004C2B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89308B9018F59103004C2B29 /* Images.xcassets in Resources */,
+				89308B7C18F59103004C2B29 /* InfoPlist.strings in Resources */,
+				89308B8E18F59103004C2B29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89308B9318F59103004C2B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89308BA118F59103004C2B29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89308B6A18F59102004C2B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89308B8818F59103004C2B29 /* XygloDataViewController.m in Sources */,
+				89308B8B18F59103004C2B29 /* XygloModelController.m in Sources */,
+				89308B8518F59103004C2B29 /* XygloRootViewController.m in Sources */,
+				89308B8218F59103004C2B29 /* XygloAppDelegate.m in Sources */,
+				89308B7E18F59103004C2B29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89308B9118F59103004C2B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89308BA318F59103004C2B29 /* pingvoucherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89308B9B18F59103004C2B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89308B6D18F59102004C2B29 /* pingvoucher */;
+			targetProxy = 89308B9A18F59103004C2B29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89308B7A18F59103004C2B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89308B7B18F59103004C2B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89308B8C18F59103004C2B29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89308B8D18F59103004C2B29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89308B9F18F59103004C2B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89308BA018F59103004C2B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89308BA418F59103004C2B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89308BA518F59103004C2B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89308BA718F59103004C2B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingvoucher/pingvoucher-Prefix.pch";
+				INFOPLIST_FILE = "pingvoucher/pingvoucher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89308BA818F59103004C2B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingvoucher/pingvoucher-Prefix.pch";
+				INFOPLIST_FILE = "pingvoucher/pingvoucher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		89308BAA18F59103004C2B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pingvoucher.app/pingvoucher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingvoucher/pingvoucher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pingvoucherTests/pingvoucherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		89308BAB18F59103004C2B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pingvoucher.app/pingvoucher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pingvoucher/pingvoucher-Prefix.pch";
+				INFOPLIST_FILE = "pingvoucherTests/pingvoucherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89308B6918F59102004C2B29 /* Build configuration list for PBXProject "pingvoucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89308BA418F59103004C2B29 /* Debug */,
+				89308BA518F59103004C2B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89308BA618F59103004C2B29 /* Build configuration list for PBXNativeTarget "pingvoucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89308BA718F59103004C2B29 /* Debug */,
+				89308BA818F59103004C2B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89308BA918F59103004C2B29 /* Build configuration list for PBXNativeTarget "pingvoucherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89308BAA18F59103004C2B29 /* Debug */,
+				89308BAB18F59103004C2B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89308B6618F59102004C2B29 /* Project object */;
+}
