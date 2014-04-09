@@ -32,4 +32,17 @@
     self.dataLabel.text = [self.dataObject description];
 }
 
+- (void) keyboardDidShowNotification:(NSNotification *)aNotification
+{
+    NSDictionary *info = [aNotification userInfo];
+    CGFloat kbHeight =
+    [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size.height;
+    
+    NSString *string = [[NSString alloc] initWithFormat:@"keyboardDidShowNotification kbHeight: %.2f", kbHeight];
+    NSLog(@"%@", string);
+    //keyboardDidShowNotificationL.text = string;
+    //[string release];
+}
+
+
 @end

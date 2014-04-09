@@ -12,4 +12,7 @@
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
 
+
+- (void) keyboardDidShowNotification:(NSNotification *)aNotification;
+
 @end
