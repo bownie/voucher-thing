@@ -16,13 +16,13 @@
 		89308B8518F59103004C2B29 /* XygloRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8418F59103004C2B29 /* XygloRootViewController.m */; };
 		89308B8818F59103004C2B29 /* XygloDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8718F59103004C2B29 /* XygloDataViewController.m */; };
 		89308B8B18F59103004C2B29 /* XygloModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308B8A18F59103004C2B29 /* XygloModelController.m */; };
-		89308B8E18F59103004C2B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89308B8C18F59103004C2B29 /* Main.storyboard */; };
 		89308B9018F59103004C2B29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89308B8F18F59103004C2B29 /* Images.xcassets */; };
 		89308B9718F59103004C2B29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B9618F59103004C2B29 /* XCTest.framework */; };
 		89308B9818F59103004C2B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7118F59103004C2B29 /* Foundation.framework */; };
 		89308B9918F59103004C2B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7518F59103004C2B29 /* UIKit.framework */; };
 		89308BA118F59103004C2B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89308B9F18F59103004C2B29 /* InfoPlist.strings */; };
-		89308BA318F59103004C2B29 /* pingvoucherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308BA218F59103004C2B29 /* pingvoucherTests.m */; };
+		89308BA318F59103004C2B29 /* voucherthingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308BA218F59103004C2B29 /* voucherthingTests.m */; };
+		89E3994018F6A26F00D23405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E3993E18F6A26F00D23405 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,25 +40,25 @@
 		89308B7118F59103004C2B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89308B7318F59103004C2B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		89308B7518F59103004C2B29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		89308B7918F59103004C2B29 /* pingvoucher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pingvoucher-Info.plist"; sourceTree = "<group>"; };
+		89308B7918F59103004C2B29 /* voucherthing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "voucherthing-Info.plist"; path = "voucherthing/voucherthing-Info.plist"; sourceTree = "<group>"; };
 		89308B7B18F59103004C2B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		89308B7D18F59103004C2B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		89308B7F18F59103004C2B29 /* pingvoucher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pingvoucher-Prefix.pch"; sourceTree = "<group>"; };
-		89308B8018F59103004C2B29 /* XygloAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloAppDelegate.h; sourceTree = "<group>"; };
-		89308B8118F59103004C2B29 /* XygloAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloAppDelegate.m; sourceTree = "<group>"; };
-		89308B8318F59103004C2B29 /* XygloRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloRootViewController.h; sourceTree = "<group>"; };
-		89308B8418F59103004C2B29 /* XygloRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloRootViewController.m; sourceTree = "<group>"; };
-		89308B8618F59103004C2B29 /* XygloDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloDataViewController.h; sourceTree = "<group>"; };
-		89308B8718F59103004C2B29 /* XygloDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloDataViewController.m; sourceTree = "<group>"; };
-		89308B8918F59103004C2B29 /* XygloModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XygloModelController.h; sourceTree = "<group>"; };
-		89308B8A18F59103004C2B29 /* XygloModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XygloModelController.m; sourceTree = "<group>"; };
-		89308B8D18F59103004C2B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89308B8F18F59103004C2B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89308B7D18F59103004C2B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = voucherthing/main.m; sourceTree = "<group>"; };
+		89308B7F18F59103004C2B29 /* voucherthing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "voucherthing-Prefix.pch"; path = "voucherthing/voucherthing-Prefix.pch"; sourceTree = "<group>"; };
+		89308B8018F59103004C2B29 /* XygloAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XygloAppDelegate.h; path = voucherthing/XygloAppDelegate.h; sourceTree = "<group>"; };
+		89308B8118F59103004C2B29 /* XygloAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XygloAppDelegate.m; path = voucherthing/XygloAppDelegate.m; sourceTree = "<group>"; };
+		89308B8318F59103004C2B29 /* XygloRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XygloRootViewController.h; path = voucherthing/XygloRootViewController.h; sourceTree = "<group>"; };
+		89308B8418F59103004C2B29 /* XygloRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XygloRootViewController.m; path = voucherthing/XygloRootViewController.m; sourceTree = "<group>"; };
+		89308B8618F59103004C2B29 /* XygloDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XygloDataViewController.h; path = voucherthing/XygloDataViewController.h; sourceTree = "<group>"; };
+		89308B8718F59103004C2B29 /* XygloDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XygloDataViewController.m; path = voucherthing/XygloDataViewController.m; sourceTree = "<group>"; };
+		89308B8918F59103004C2B29 /* XygloModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XygloModelController.h; path = voucherthing/XygloModelController.h; sourceTree = "<group>"; };
+		89308B8A18F59103004C2B29 /* XygloModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XygloModelController.m; path = voucherthing/XygloModelController.m; sourceTree = "<group>"; };
+		89308B8F18F59103004C2B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = voucherthing/Images.xcassets; sourceTree = "<group>"; };
 		89308B9518F59103004C2B29 /* pingvoucherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pingvoucherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89308B9618F59103004C2B29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		89308B9E18F59103004C2B29 /* pingvoucherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pingvoucherTests-Info.plist"; sourceTree = "<group>"; };
+		89308B9E18F59103004C2B29 /* voucherthingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "voucherthingTests-Info.plist"; path = "voucherthingTests/voucherthingTests-Info.plist"; sourceTree = "<group>"; };
 		89308BA018F59103004C2B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		89308BA218F59103004C2B29 /* pingvoucherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pingvoucherTests.m; sourceTree = "<group>"; };
+		89308BA218F59103004C2B29 /* voucherthingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = voucherthingTests.m; path = voucherthingTests/voucherthingTests.m; sourceTree = "<group>"; };
+		89E3993F18F6A26F00D23405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = voucherthing/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 		89308B6518F59102004C2B29 = {
 			isa = PBXGroup;
 			children = (
-				89308B7718F59103004C2B29 /* pingvoucher */,
-				89308B9C18F59103004C2B29 /* pingvoucherTests */,
+				89308B7718F59103004C2B29 /* voucherthing */,
+				89308B9C18F59103004C2B29 /* voucherthingTests */,
 				89308B7018F59103004C2B29 /* Frameworks */,
 				89308B6F18F59103004C2B29 /* Products */,
 			);
@@ -115,7 +115,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		89308B7718F59103004C2B29 /* pingvoucher */ = {
+		89308B7718F59103004C2B29 /* voucherthing */ = {
 			isa = PBXGroup;
 			children = (
 				89308B8018F59103004C2B29 /* XygloAppDelegate.h */,
@@ -126,37 +126,38 @@
 				89308B8718F59103004C2B29 /* XygloDataViewController.m */,
 				89308B8918F59103004C2B29 /* XygloModelController.h */,
 				89308B8A18F59103004C2B29 /* XygloModelController.m */,
-				89308B8C18F59103004C2B29 /* Main.storyboard */,
 				89308B8F18F59103004C2B29 /* Images.xcassets */,
+				89E3993E18F6A26F00D23405 /* Main.storyboard */,
 				89308B7818F59103004C2B29 /* Supporting Files */,
 			);
-			path = pingvoucher;
+			name = voucherthing;
 			sourceTree = "<group>";
 		};
 		89308B7818F59103004C2B29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				89308B7918F59103004C2B29 /* pingvoucher-Info.plist */,
+				89308B7918F59103004C2B29 /* voucherthing-Info.plist */,
 				89308B7A18F59103004C2B29 /* InfoPlist.strings */,
 				89308B7D18F59103004C2B29 /* main.m */,
-				89308B7F18F59103004C2B29 /* pingvoucher-Prefix.pch */,
+				89308B7F18F59103004C2B29 /* voucherthing-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		89308B9C18F59103004C2B29 /* pingvoucherTests */ = {
+		89308B9C18F59103004C2B29 /* voucherthingTests */ = {
 			isa = PBXGroup;
 			children = (
-				89308BA218F59103004C2B29 /* pingvoucherTests.m */,
+				89308BA218F59103004C2B29 /* voucherthingTests.m */,
 				89308B9D18F59103004C2B29 /* Supporting Files */,
 			);
+			name = voucherthingTests;
 			path = pingvoucherTests;
 			sourceTree = "<group>";
 		};
 		89308B9D18F59103004C2B29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				89308B9E18F59103004C2B29 /* pingvoucherTests-Info.plist */,
+				89308B9E18F59103004C2B29 /* voucherthingTests-Info.plist */,
 				89308B9F18F59103004C2B29 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -215,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89308B6918F59102004C2B29 /* Build configuration list for PBXProject "pingvoucher" */;
+			buildConfigurationList = 89308B6918F59102004C2B29 /* Build configuration list for PBXProject "voucherthing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E3994018F6A26F00D23405 /* Main.storyboard in Resources */,
 				89308B9018F59103004C2B29 /* Images.xcassets in Resources */,
 				89308B7C18F59103004C2B29 /* InfoPlist.strings in Resources */,
-				89308B8E18F59103004C2B29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89308BA318F59103004C2B29 /* pingvoucherTests.m in Sources */,
+				89308BA318F59103004C2B29 /* voucherthingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +294,7 @@
 				89308B7B18F59103004C2B29 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		89308B8C18F59103004C2B29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89308B8D18F59103004C2B29 /* Base */,
-			);
-			name = Main.storyboard;
+			path = voucherthing;
 			sourceTree = "<group>";
 		};
 		89308B9F18F59103004C2B29 /* InfoPlist.strings */ = {
@@ -309,6 +303,15 @@
 				89308BA018F59103004C2B29 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = voucherthingTests;
+			sourceTree = "<group>";
+		};
+		89E3993E18F6A26F00D23405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E3993F18F6A26F00D23405 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,8 +393,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "pingvoucher/pingvoucher-Prefix.pch";
-				INFOPLIST_FILE = "pingvoucher/pingvoucher-Info.plist";
+				GCC_PREFIX_HEADER = "voucherthing/voucherthing-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/voucherthing/voucherthing-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,8 +406,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "pingvoucher/pingvoucher-Prefix.pch";
-				INFOPLIST_FILE = "pingvoucher/pingvoucher-Info.plist";
+				GCC_PREFIX_HEADER = "voucherthing/voucherthing-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/voucherthing/voucherthing-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89308B6918F59102004C2B29 /* Build configuration list for PBXProject "pingvoucher" */ = {
+		89308B6918F59102004C2B29 /* Build configuration list for PBXProject "voucherthing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89308BA418F59103004C2B29 /* Debug */,
@@ -469,6 +472,7 @@
 				89308BA818F59103004C2B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89308BA918F59103004C2B29 /* Build configuration list for PBXNativeTarget "pingvoucherTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +481,7 @@
 				89308BAB18F59103004C2B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
