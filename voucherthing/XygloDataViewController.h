@@ -30,4 +30,9 @@
 
 - (void) keyboardDidShowNotification:(NSNotification *)aNotification;
 
+
+- (BOOL)disablesAutomaticKeyboardDismissal;
+
+
+
 @end

@@ -91,7 +91,7 @@
                         <viewControllerLayoutGuide type="top" id="VEX-Qp-8dB"/>
                         <viewControllerLayoutGuide type="bottom" id="97y-5W-PKX"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HWS-vu-p98">
+                    <view key="view" contentMode="scaleToFill" id="HWS-vu-p98" customClass="TPKeyboardAvoidingScrollView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>

@@ -27,6 +27,12 @@
     [singleTap setNumberOfTapsRequired:1];
     [singleTap setNumberOfTouchesRequired:1];
     [self.view addGestureRecognizer:singleTap];
+    
+    //[firstNameTextField addTarget:self
+    //                action:@selector(resignOnTap:)
+    //      forControlEvents:UIControlEventEditingDidEndOnExit];
+    
+    
     //[singleTap release];
     
     // Pull up the customer data
@@ -52,6 +58,7 @@
 {
     [super viewWillAppear:animated];
     self.dataLabel.text = [self.dataObject description];
+    
 }
 
 - (void) keyboardDidShowNotification:(NSNotification *)aNotification
@@ -64,6 +71,8 @@
     NSLog(@"%@", string);
     //keyboardDidShowNotificationL.text = string;
     //[string release];
+    
+    
 }
 
 //Implement the below delegate method:
@@ -76,6 +85,17 @@
 
 - (void)resignOnTap:(id)iSender {
     [self.currentResponder resignFirstResponder];
+    NSLog(@"RESIGN ON TAP");
+    
+    // This works - all else fails
+    //
+    [self.view endEditing:YES];
+}
+
+- (BOOL)disablesAutomaticKeyboardDismissal { return NO; }
+
+- (IBAction)dismissKeyboard {
+	[self.currentResponder resignFirstResponder];
 }
 
 @end

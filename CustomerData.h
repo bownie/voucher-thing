@@ -19,6 +19,8 @@
     
     // Inside @interface
     NSString *m_docPath;
+    
+    NSData *m_data;
 
 }
 
@@ -44,6 +46,8 @@
 
 // After @interface
 @property (copy) NSString *m_docPath;
+@property (copy) NSData *m_data;
+
 - (id)init;
 - (id)initWithDocPath:(NSString *)m_docPath;
 - (void)saveData;

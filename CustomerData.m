@@ -33,6 +33,7 @@ static CustomerData *instance = nil;
 
 // After @implementation
 @synthesize m_docPath = _docPath;
+@synthesize m_data; // = _data;
 
 // Add to dealloc
 //
@@ -79,18 +80,18 @@ static CustomerData *instance = nil;
 /*
 - (CustomerData *)data {
     
-    //if (_data != nil) return _data;
+    if (m_data != nil) return m_data;
     
     NSString *dataPath = [_docPath stringByAppendingPathComponent:kDataFile];
     NSData *codedData = [[NSData alloc] initWithContentsOfFile:dataPath];
     if (codedData == nil) return nil;
     
     NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:codedData];
-    //_data = [unarchiver decodeObjectForKey:kDataKey];
+    m_data = [unarchiver decodeObjectForKey:kDataKey];
     [unarchiver finishDecoding];
     //[unarchiver release];
     
-    return _data;
+    return m_data;
 }*/
 
 // Delete document
