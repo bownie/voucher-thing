@@ -14,9 +14,17 @@
 
 @interface XygloRootViewController ()
 @property (readonly, strong, nonatomic) XygloModelController *modelController;
+@property CLBeaconRegion * region;
+
 @end
 
 @implementation XygloRootViewController
+
+// iBeacon company id
+static NSString * myCompanyIdentifier = @"com.xyglo.voucherthing";
+static CLBeaconMajorValue myCompanyMajor = 1;
+static CLBeaconMinorValue myCompanyMinor = 1;
+static CLBeaconRegion *region;
 
 @synthesize modelController = _modelController;
 
@@ -45,6 +53,18 @@
 
     // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
     self.view.gestureRecognizers = self.pageViewController.gestureRecognizers;
+    
+    // instantiate new iBeacon region
+    NSUUID *myUUID = [[NSUUID alloc] initWithUUIDString:@"90E5A922-8A06-4A5F-9DE7-E7744A29B634"];
+    region = [[CLBeaconRegion alloc] initWithProximityUUID:myUUID
+                                                     major:myCompanyMajor
+                                                     minor:myCompanyMinor
+                                                     identifier:myCompanyIdentifier];
+    
+    // When set to YES, the location manager sends beacon notifications when the user turns on the display and the device is already inside the region.
+    [self.region setNotifyEntryStateOnDisplay:YES];
+    [self.region setNotifyOnEntry:YES];
+    [self.region setNotifyOnExit:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -94,5 +114,24 @@
     //keyboardDidShowNotificationL.text = string;
     //[string release];
 }
+
+- (void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
+    
+    NSLog(@"DID ENTER REGION");
+    
+    /*
+    // notify user they have entered the region
+    if ([region.identifier isEqualToString:myCompanyIdentifier]
+    	&& !self.didShowEntranceNotifier) {
+        
+        // Optionally notify user they have entered the region
+        self.didShowEntranceNotifier = YES;
+        
+        // start tracking beacons
+        [manager startRangingBeaconsInRegion:self.targetRegion];
+    }*/
+}
+
+
 
 @end

@@ -22,6 +22,13 @@
 		89308B9918F59103004C2B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7518F59103004C2B29 /* UIKit.framework */; };
 		89308BA118F59103004C2B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89308B9F18F59103004C2B29 /* InfoPlist.strings */; };
 		89308BA318F59103004C2B29 /* voucherthingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308BA218F59103004C2B29 /* voucherthingTests.m */; };
+		8996F43C18FACA430018EA7D /* VoucherThing-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8996F43B18FACA430018EA7D /* VoucherThing-green.png */; };
+		8996F44118FAD4B50018EA7D /* VoucherThing-blue-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8996F44018FAD4B50018EA7D /* VoucherThing-blue-2.png */; };
+		8996F44318FB27BB0018EA7D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8996F44218FB27BB0018EA7D /* Settings.bundle */; };
+		8996F44718FBBE3F0018EA7D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8996F44618FBBE3F0018EA7D /* CoreBluetooth.framework */; };
+		8996F44918FBBE720018EA7D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8996F44818FBBE720018EA7D /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8996F44B18FBBED30018EA7D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8996F44A18FBBED30018EA7D /* AVFoundation.framework */; };
+		8996F44E18FBCAA90018EA7D /* CustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996F44D18FBCAA90018EA7D /* CustomerData.m */; };
 		89E3994018F6A26F00D23405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E3993E18F6A26F00D23405 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +65,15 @@
 		89308B9E18F59103004C2B29 /* voucherthingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "voucherthingTests-Info.plist"; path = "voucherthingTests/voucherthingTests-Info.plist"; sourceTree = "<group>"; };
 		89308BA018F59103004C2B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89308BA218F59103004C2B29 /* voucherthingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = voucherthingTests.m; path = voucherthingTests/voucherthingTests.m; sourceTree = "<group>"; };
+		8996F43B18FACA430018EA7D /* VoucherThing-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoucherThing-green.png"; path = "../../Downloads/VoucherThing-green.png"; sourceTree = "<group>"; };
+		8996F44018FAD4B50018EA7D /* VoucherThing-blue-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoucherThing-blue-2.png"; path = "../../Downloads/VoucherThing-blue-2.png"; sourceTree = "<group>"; };
+		8996F44218FB27BB0018EA7D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8996F44418FBBE200018EA7D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8996F44618FBBE3F0018EA7D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8996F44818FBBE720018EA7D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8996F44A18FBBED30018EA7D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8996F44C18FBCAA90018EA7D /* CustomerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerData.h; sourceTree = "<group>"; };
+		8996F44D18FBCAA90018EA7D /* CustomerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerData.m; sourceTree = "<group>"; };
 		89E3993F18F6A26F00D23405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = voucherthing/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -66,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8996F44B18FBBED30018EA7D /* AVFoundation.framework in Frameworks */,
+				8996F44918FBBE720018EA7D /* CoreLocation.framework in Frameworks */,
+				8996F44718FBBE3F0018EA7D /* CoreBluetooth.framework in Frameworks */,
 				89308B7418F59103004C2B29 /* CoreGraphics.framework in Frameworks */,
 				89308B7618F59103004C2B29 /* UIKit.framework in Frameworks */,
 				89308B7218F59103004C2B29 /* Foundation.framework in Frameworks */,
@@ -88,6 +107,8 @@
 		89308B6518F59102004C2B29 = {
 			isa = PBXGroup;
 			children = (
+				8996F44218FB27BB0018EA7D /* Settings.bundle */,
+				8996F43D18FACAAE0018EA7D /* Images */,
 				89308B7718F59103004C2B29 /* voucherthing */,
 				89308B9C18F59103004C2B29 /* voucherthingTests */,
 				89308B7018F59103004C2B29 /* Frameworks */,
@@ -107,6 +128,10 @@
 		89308B7018F59103004C2B29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8996F44A18FBBED30018EA7D /* AVFoundation.framework */,
+				8996F44818FBBE720018EA7D /* CoreLocation.framework */,
+				8996F44618FBBE3F0018EA7D /* CoreBluetooth.framework */,
+				8996F44418FBBE200018EA7D /* CFNetwork.framework */,
 				89308B7118F59103004C2B29 /* Foundation.framework */,
 				89308B7318F59103004C2B29 /* CoreGraphics.framework */,
 				89308B7518F59103004C2B29 /* UIKit.framework */,
@@ -129,6 +154,8 @@
 				89308B8F18F59103004C2B29 /* Images.xcassets */,
 				89E3993E18F6A26F00D23405 /* Main.storyboard */,
 				89308B7818F59103004C2B29 /* Supporting Files */,
+				8996F44C18FBCAA90018EA7D /* CustomerData.h */,
+				8996F44D18FBCAA90018EA7D /* CustomerData.m */,
 			);
 			name = voucherthing;
 			sourceTree = "<group>";
@@ -161,6 +188,15 @@
 				89308B9F18F59103004C2B29 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8996F43D18FACAAE0018EA7D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8996F44018FAD4B50018EA7D /* VoucherThing-blue-2.png */,
+				8996F43B18FACA430018EA7D /* VoucherThing-green.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89308B6918F59102004C2B29 /* Build configuration list for PBXProject "voucherthing" */;
+			buildConfigurationList = 89308B6918F59102004C2B29 /* Build configuration list for PBXProject "Voucher Thing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E3994018F6A26F00D23405 /* Main.storyboard in Resources */,
+				8996F43C18FACA430018EA7D /* VoucherThing-green.png in Resources */,
 				89308B9018F59103004C2B29 /* Images.xcassets in Resources */,
+				8996F44118FAD4B50018EA7D /* VoucherThing-blue-2.png in Resources */,
+				8996F44318FB27BB0018EA7D /* Settings.bundle in Resources */,
 				89308B7C18F59103004C2B29 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +305,7 @@
 				89308B8518F59103004C2B29 /* XygloRootViewController.m in Sources */,
 				89308B8218F59103004C2B29 /* XygloAppDelegate.m in Sources */,
 				89308B7E18F59103004C2B29 /* main.m in Sources */,
+				8996F44E18FBCAA90018EA7D /* CustomerData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89308B6918F59102004C2B29 /* Build configuration list for PBXProject "voucherthing" */ = {
+		89308B6918F59102004C2B29 /* Build configuration list for PBXProject "Voucher Thing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89308BA418F59103004C2B29 /* Debug */,
