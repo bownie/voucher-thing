@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8912D44218FC4082007B7156 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912D44118FC4082007B7156 /* TPKeyboardAvoidingScrollView.m */; };
+		8912D44418FC60ED007B7156 /* VoucherThing-blue-2 small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8912D44318FC60ED007B7156 /* VoucherThing-blue-2 small.png */; };
+		8912D44618FC625B007B7156 /* VoucherThing-blue-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8912D44518FC625B007B7156 /* VoucherThing-blue-2.png */; };
 		89308B7218F59103004C2B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7118F59103004C2B29 /* Foundation.framework */; };
 		89308B7418F59103004C2B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7318F59103004C2B29 /* CoreGraphics.framework */; };
 		89308B7618F59103004C2B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7518F59103004C2B29 /* UIKit.framework */; };
@@ -22,8 +25,6 @@
 		89308B9918F59103004C2B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89308B7518F59103004C2B29 /* UIKit.framework */; };
 		89308BA118F59103004C2B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89308B9F18F59103004C2B29 /* InfoPlist.strings */; };
 		89308BA318F59103004C2B29 /* voucherthingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89308BA218F59103004C2B29 /* voucherthingTests.m */; };
-		8996F43C18FACA430018EA7D /* VoucherThing-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8996F43B18FACA430018EA7D /* VoucherThing-green.png */; };
-		8996F44118FAD4B50018EA7D /* VoucherThing-blue-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8996F44018FAD4B50018EA7D /* VoucherThing-blue-2.png */; };
 		8996F44318FB27BB0018EA7D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8996F44218FB27BB0018EA7D /* Settings.bundle */; };
 		8996F44718FBBE3F0018EA7D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8996F44618FBBE3F0018EA7D /* CoreBluetooth.framework */; };
 		8996F44918FBBE720018EA7D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8996F44818FBBE720018EA7D /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -43,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8912D44018FC4082007B7156 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = "../../Downloads/TPKeyboardAvoiding-master-2/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
+		8912D44118FC4082007B7156 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = "../../Downloads/TPKeyboardAvoiding-master-2/TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m"; sourceTree = "<group>"; };
+		8912D44318FC60ED007B7156 /* VoucherThing-blue-2 small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VoucherThing-blue-2 small.png"; sourceTree = "<group>"; };
+		8912D44518FC625B007B7156 /* VoucherThing-blue-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VoucherThing-blue-2.png"; sourceTree = "<group>"; };
 		89308B6E18F59103004C2B29 /* pingvoucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pingvoucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89308B7118F59103004C2B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89308B7318F59103004C2B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +70,6 @@
 		89308B9E18F59103004C2B29 /* voucherthingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "voucherthingTests-Info.plist"; path = "voucherthingTests/voucherthingTests-Info.plist"; sourceTree = "<group>"; };
 		89308BA018F59103004C2B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89308BA218F59103004C2B29 /* voucherthingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = voucherthingTests.m; path = voucherthingTests/voucherthingTests.m; sourceTree = "<group>"; };
-		8996F43B18FACA430018EA7D /* VoucherThing-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoucherThing-green.png"; path = "../../Downloads/VoucherThing-green.png"; sourceTree = "<group>"; };
-		8996F44018FAD4B50018EA7D /* VoucherThing-blue-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoucherThing-blue-2.png"; path = "../../Downloads/VoucherThing-blue-2.png"; sourceTree = "<group>"; };
 		8996F44218FB27BB0018EA7D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		8996F44418FBBE200018EA7D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8996F44618FBBE3F0018EA7D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -143,6 +146,8 @@
 		89308B7718F59103004C2B29 /* voucherthing */ = {
 			isa = PBXGroup;
 			children = (
+				8912D44018FC4082007B7156 /* TPKeyboardAvoidingScrollView.h */,
+				8912D44118FC4082007B7156 /* TPKeyboardAvoidingScrollView.m */,
 				89308B8018F59103004C2B29 /* XygloAppDelegate.h */,
 				89308B8118F59103004C2B29 /* XygloAppDelegate.m */,
 				89308B8318F59103004C2B29 /* XygloRootViewController.h */,
@@ -193,8 +198,8 @@
 		8996F43D18FACAAE0018EA7D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				8996F44018FAD4B50018EA7D /* VoucherThing-blue-2.png */,
-				8996F43B18FACA430018EA7D /* VoucherThing-green.png */,
+				8912D44318FC60ED007B7156 /* VoucherThing-blue-2 small.png */,
+				8912D44518FC625B007B7156 /* VoucherThing-blue-2.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -276,10 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8912D44618FC625B007B7156 /* VoucherThing-blue-2.png in Resources */,
+				8912D44418FC60ED007B7156 /* VoucherThing-blue-2 small.png in Resources */,
 				89E3994018F6A26F00D23405 /* Main.storyboard in Resources */,
-				8996F43C18FACA430018EA7D /* VoucherThing-green.png in Resources */,
 				89308B9018F59103004C2B29 /* Images.xcassets in Resources */,
-				8996F44118FAD4B50018EA7D /* VoucherThing-blue-2.png in Resources */,
 				8996F44318FB27BB0018EA7D /* Settings.bundle in Resources */,
 				89308B7C18F59103004C2B29 /* InfoPlist.strings in Resources */,
 			);
@@ -300,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8912D44218FC4082007B7156 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				89308B8818F59103004C2B29 /* XygloDataViewController.m in Sources */,
 				89308B8B18F59103004C2B29 /* XygloModelController.m in Sources */,
 				89308B8518F59103004C2B29 /* XygloRootViewController.m in Sources */,

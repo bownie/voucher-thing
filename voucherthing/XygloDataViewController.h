@@ -24,15 +24,21 @@
 @property (nonatomic,weak) IBOutlet UITextField *familyNameTextField;
 @property (nonatomic,weak) IBOutlet UITextField *emailTextField;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *sexText;
-@property (nonatomic,weak) IBOutlet UITextField *sexTextField;
+@property (nonatomic,weak) IBOutlet UITextField *ageTextField;
 @property (nonatomic,weak) IBOutlet UITextField *townTextField;
 @property (nonatomic,weak) IBOutlet UITextField *postcodeTextField;
 
 - (void) keyboardDidShowNotification:(NSNotification *)aNotification;
 
 
+-(void)textFieldDidEndEditing:(UITextField*) tf;
+
 - (BOOL)disablesAutomaticKeyboardDismissal;
 
+// Archive
+//
+- (void) archive;
+- (void) unarchive;
 
 
 @end

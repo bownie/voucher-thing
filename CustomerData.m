@@ -8,7 +8,7 @@
 
 #import "CustomerData.h"
 
-#define kDataKey        @"Data"
+#define kDataKey        @"CustomerData"
 #define kDataFile       @"data.plist"
 
 //Customer Data
@@ -32,8 +32,8 @@ static CustomerData *instance = nil;
 
 
 // After @implementation
-@synthesize m_docPath = _docPath;
-@synthesize m_data; // = _data;
+@synthesize m_docPath;
+@synthesize m_data;
 
 // Add to dealloc
 //
@@ -61,9 +61,9 @@ static CustomerData *instance = nil;
 
 - (BOOL)createDataPath {
     
-    //if (m_docPath == nil) {
-        //self.m_docPath = [ScaryBugDatabase nextScaryBugDocPath];
-    //}
+    if (m_docPath == nil) {
+        self.m_docPath = [self getPrivateDocsDir];
+    }
     
     NSError *error;
     BOOL success = [[NSFileManager defaultManager] createDirectoryAtPath:m_docPath withIntermediateDirectories:YES attributes:nil error:&error];
@@ -71,35 +71,51 @@ static CustomerData *instance = nil;
         NSLog(@"Error creating data path: %@", [error localizedDescription]);
     }
     return success;
-    
 }
 
 
+
+- (NSString *)getPrivateDocsDir {
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    documentsDirectory = [documentsDirectory stringByAppendingPathComponent:@"Private Documents"];
+    
+    NSError *error;
+    [[NSFileManager defaultManager] createDirectoryAtPath:documentsDirectory withIntermediateDirectories:YES attributes:nil error:&error];
+    
+    return documentsDirectory;
+    
+}
+
 // Override data
 //
-/*
-- (CustomerData *)data {
+- (void)loadData {
     
-    if (m_data != nil) return m_data;
+    if (m_docPath == nil) {
+        self.m_docPath = [self getPrivateDocsDir];
+    }
     
-    NSString *dataPath = [_docPath stringByAppendingPathComponent:kDataFile];
+    NSString *dataPath = [m_docPath stringByAppendingPathComponent:kDataFile];
     NSData *codedData = [[NSData alloc] initWithContentsOfFile:dataPath];
-    if (codedData == nil) return nil;
+    if (codedData == nil)
+    {
+        NSLog(@"Got nothing to load");
+        return;
+    }
     
     NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:codedData];
     m_data = [unarchiver decodeObjectForKey:kDataKey];
     [unarchiver finishDecoding];
     //[unarchiver release];
-    
-    return m_data;
-}*/
+}
 
 // Delete document
 //
 - (void)deleteDoc {
     
     NSError *error;
-    BOOL success = [[NSFileManager defaultManager] removeItemAtPath:_docPath error:&error];
+    BOOL success = [[NSFileManager defaultManager] removeItemAtPath:m_docPath error:&error];
     if (!success) {
         NSLog(@"Error removing document path: %@", error.localizedDescription);
     }
@@ -112,10 +128,10 @@ static CustomerData *instance = nil;
     
     [self createDataPath];
     
-    NSString *dataPath = [_docPath stringByAppendingPathComponent:kDataFile];
+    NSString *dataPath = [m_docPath stringByAppendingPathComponent:kDataFile];
     NSMutableData *data = [[NSMutableData alloc] init];
     NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
-    //[archiver encodeObject:_data forKey:kDataKey];
+    [archiver encodeObject:m_data forKey:kDataKey];
     [archiver finishEncoding];
     [data writeToFile:dataPath atomically:YES];
     //[archiver release];
@@ -141,16 +157,20 @@ static CustomerData *instance = nil;
 // Decode this object
 //
 - (id)initWithCoder:(NSCoder *)decoder {
-    self = [self init];
+    //self = [self init];
     
-    self.m_forename = [decoder decodeObjectForKey:forenameKey];
-    self.m_familyname = [decoder decodeObjectForKey:familyNameKey];
-    self.m_email = [decoder decodeObjectForKey:emailKey];
-    self.m_sex = [decoder decodeObjectForKey:sexKey];
-    self.m_age = [decoder decodeObjectForKey:ageKey];
-    self.m_town = [decoder decodeObjectForKey:townKey];
-    self.m_postcode = [decoder decodeObjectForKey:postcodeKey];
+    self = [super init];
     
+    if(self)
+    {
+        self.m_forename = [decoder decodeObjectForKey:forenameKey];
+        self.m_familyname = [decoder decodeObjectForKey:familyNameKey];
+        self.m_email = [decoder decodeObjectForKey:emailKey ];
+        self.m_sex = [decoder decodeObjectForKey:sexKey];
+        self.m_age = [decoder decodeObjectForKey:ageKey];
+        self.m_town = [decoder decodeObjectForKey:townKey];
+        self.m_postcode = [decoder decodeObjectForKey:postcodeKey];
+    }
     return self;
 }
 

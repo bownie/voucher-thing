@@ -51,7 +51,9 @@
 - (id)init;
 - (id)initWithDocPath:(NSString *)m_docPath;
 - (void)saveData;
+- (void)loadData;
 - (void)deleteDoc;
+- (NSString*) getPrivateDocsDir;
 
 
 @end
