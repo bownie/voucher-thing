@@ -7,6 +7,7 @@
 //
 
 #import "XygloDataViewController.h"
+#import "CustomerData.h"
 
 @interface XygloDataViewController ()
 
@@ -18,6 +19,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+
+    // Attempt to remove keyboard with single tap outside the text areas
+    //
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(resignOnTap:)];
+    [singleTap setNumberOfTapsRequired:1];
+    [singleTap setNumberOfTouchesRequired:1];
+    [self.view addGestureRecognizer:singleTap];
+    //[singleTap release];
+    
+    // Pull up the customer data
+    //
+    CustomerData *cd = [CustomerData getInstance];
+
+    // Attempt to fill the text fields
+    //
+    self.firstNameTextField.text = cd.m_forename;
+    self.familyNameTextField.text = cd.m_familyname;
+    self.emailTextField.text = cd.m_email;
+    self.townTextField.text = cd.m_town;
+    self.postcodeTextField.text = cd.m_postcode;
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,6 +66,16 @@
     //[string release];
 }
 
+//Implement the below delegate method:
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    self.currentResponder = textField;
+}
+
+//Implement resignOnTap:
+
+- (void)resignOnTap:(id)iSender {
+    [self.currentResponder resignFirstResponder];
+}
 
 @end

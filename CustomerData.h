@@ -16,9 +16,14 @@
     NSString *m_age;
     NSString *m_town;
     NSString *m_postcode;
+    
+    // Inside @interface
+    NSString *m_docPath;
 
 }
 
+// Attributes
+//
 @property(nonatomic,retain)NSString *m_forename;
 @property(nonatomic,retain)NSString *m_familyname;
 @property(nonatomic,retain)NSString *m_email;
@@ -36,6 +41,14 @@
 #define postcodeKey @"postcode"
 
 +(CustomerData*)getInstance;
+
+// After @interface
+@property (copy) NSString *m_docPath;
+- (id)init;
+- (id)initWithDocPath:(NSString *)m_docPath;
+- (void)saveData;
+- (void)deleteDoc;
+
 
 @end
 
