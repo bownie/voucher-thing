@@ -41,7 +41,7 @@
                                             <segue destination="jl8-Zj-YN7" kind="modal" id="mZb-5m-WR5"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" alpha="0.79999999999999982" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing-blue-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLh-IF-t1W">
+                                    <imageView userInteractionEnabled="NO" alpha="0.79999999999999982" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wLh-IF-t1W">
                                         <rect key="frame" x="47" y="14" width="209" height="121"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -87,7 +87,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing-blue-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="YST-bE-Xit">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing2.png" translatesAutoresizingMaskIntoConstraints="NO" id="YST-bE-Xit">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -180,7 +180,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Details" image="VoucherThing-blue-2 small.png" id="lWJ-bP-tJt"/>
+                    <tabBarItem key="tabBarItem" title="My Details" image="VoucherThing2V-40.png" id="lWJ-bP-tJt"/>
                     <connections>
                         <outlet property="emailTextField" destination="Kz6-6X-gli" id="riv-w3-vXV"/>
                         <outlet property="familyNameTextField" destination="saI-sn-q1I" id="dkC-wT-cND"/>
@@ -219,14 +219,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing-blue-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="sMR-ai-bYY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing2.png" translatesAutoresizingMaskIntoConstraints="NO" id="sMR-ai-bYY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scan" image="VoucherThing-blue-2 small.png" id="p1w-Fr-Jj2"/>
+                    <tabBarItem key="tabBarItem" title="Scan" image="VoucherThing2V-40.png" id="p1w-Fr-Jj2"/>
                     <navigationItem key="navigationItem" id="k78-DN-I8W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H7p-KZ-bu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -279,7 +279,7 @@
                             <outlet property="delegate" destination="xE9-p0-f0R" id="sDu-IW-HAX"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Vouchers" image="VoucherThing-blue-2 small.png" id="oyG-fl-Fd6"/>
+                    <tabBarItem key="tabBarItem" title="Vouchers" image="VoucherThing2V-40.png" id="oyG-fl-Fd6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTF-yv-GN0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -314,7 +314,7 @@
                             <outlet property="delegate" destination="Rht-aI-Bme" id="KmA-MI-j3M"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Vouchers" image="VoucherThing-blue-2 small.png" id="atD-hN-SzC"/>
+                    <tabBarItem key="tabBarItem" title="Vouchers" image="VoucherThing2V-40.png" id="atD-hN-SzC"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWg-kv-Bgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -332,14 +332,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing-blue-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="WFf-RV-37n">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VoucherThing2.png" translatesAutoresizingMaskIntoConstraints="NO" id="WFf-RV-37n">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Vouchers" image="VoucherThing-blue-2 small.png" id="7AW-Kq-AmQ"/>
+                    <tabBarItem key="tabBarItem" title="Vouchers" image="VoucherThing2V-40.png" id="7AW-Kq-AmQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJR-R3-Fe6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -365,8 +365,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="VoucherThing-blue-2 small.png" width="40" height="40"/>
-        <image name="VoucherThing-blue-2.png" width="858" height="858"/>
+        <image name="VoucherThing2.png" width="1200" height="1200"/>
+        <image name="VoucherThing2V-40.png" width="40" height="40"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
